@@ -1,0 +1,241 @@
+@font-face{
+    font-family: 'montserrat';
+    src: url("../fonts/montserrat/Montserrat-Regular.otf");
+}
+
+
+$warna-dasar1: #71ddff;
+$warna-dasar2: #4dc4ff;
+$warna-dasar3: #45bde5;
+
+
+body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+section{
+    margin-top: 150px;
+}
+
+ul{
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;    
+}
+
+button{
+    font-family: montserrat;
+    padding: 5px 35px 5px 35px;
+    background-color: $warna-dasar2;
+    border-radius: 15px;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+label{
+    font-family: montserrat;
+}
+
+input{
+    border: solid 1.5px black;
+    border-radius: 10px;
+    font-family: montserrat;
+    margin-left: 15px;
+}
+
+.navbar{
+    height: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-flex-spacebetween{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.wrapper-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper-flex-center-down{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.tulisan1-judul{
+    width: fit-content;
+    height: fit-content;
+    font-family: montserrat;
+    font-size: 1.5rem;
+    // text-align: center;
+}
+
+
+body{
+    #section1{
+        margin-top: 0;
+        background-color: $warna-dasar3;
+        #selector_1{
+            #selector1{
+                .wrapper-flex-spacebetween{
+                    height: 88px;                                                                
+                    .wrapper-flex-center{                        
+                        width: fit-content;
+                        .tulisan1-judul{
+                            color: white;
+                        }
+                    }                                            
+                }
+            }
+        }
+    }
+
+    #section2{
+        #selector_1{
+            #selector1{
+                .wrapper-flex-center{
+                    .tulisan1-judul{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        #selector_1-home{
+            #selector1-home{
+                            
+            }
+            #selector2-home{
+                .wrapper-flex-center-down{
+                    .tulisan1-judul:nth-of-type(1){
+                        font-size: 2rem;
+                        text-align: center;
+                    }
+                    .tulisan1-judul:nth-of-type(2){
+                        font-size: 2.5rem;
+                        color: $warna-dasar2;
+                    }
+                    .tulisan1-judul:nth-of-type(3){
+                        width: 350px;
+                        text-align: center;                        
+                        margin-top: 25px;
+                        padding: 5px 35px 5px 35px;
+                        background-color: $warna-dasar1;
+                        border-radius: 15px;
+                        color: white;
+                        transition: all .2s ease-in-out; 
+                    }
+                    .tulisan1-judul:nth-of-type(3):hover{
+                        cursor: pointer;
+                        transform: scale(1.1);
+                    }
+                    .tulisan1-judul:nth-of-type(4){
+                        width: 350px;
+                        text-align: center; 
+                        margin-top: 15px;
+                        padding: 5px 35px 5px 35px;
+                        background-color: $warna-dasar2;
+                        border-radius: 15px;
+                        color: white;
+                        transition: all .2s ease-in-out; 
+                    }
+                    .tulisan1-judul:nth-of-type(4):hover{
+                        cursor: pointer;
+                        transform: scale(1.1);
+                    }
+                    .tulisan1-judul:nth-of-type(5){
+                        width: 350px;
+                        text-align: center; 
+                        margin-top: 15px;
+                        padding: 5px 35px 5px 35px;
+                        background-color: $warna-dasar3;
+                        border-radius: 15px;
+                        color: white;
+                        transition: all .2s ease-in-out; 
+                    }
+                    .tulisan1-judul:nth-of-type(5):hover{
+                        cursor: pointer;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+        #selector_2{
+            #selector2{
+                .wrapper-flex-center{
+                    margin-top: 15px;                    
+                    .tulisan1-judul{
+                        text-align: center;
+                        color: $warna-dasar3;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+
+        #selector_3{
+            #selector3{
+                .wrapper-flex-center{
+                    margin-top: 55px;
+                    .wrapper-flex-spacebetween{                    
+                        width: 30%;
+                        .tulisan1-judul:nth-of-type(1){
+                            padding: 5px 35px 5px 35px;
+                            background-color: $warna-dasar1;
+                            border-radius: 15px;
+                            color: white;
+                            transition: all .2s ease-in-out;                            ;                        
+                        }
+                        .tulisan1-judul:nth-of-type(1):hover{
+                            cursor: pointer;
+                            transform: scale(1.1);
+                        }
+                        .tulisan1-judul:nth-of-type(2){
+                            padding: 5px 35px 5px 35px;
+                            background-color: $warna-dasar2;
+                            border-radius: 15px;
+                            color: white;
+                            transition: all .2s ease-in-out;
+                        }
+                        .tulisan1-judul:nth-of-type(2):hover{
+                            cursor: pointer;
+                            transform: scale(1.1);
+                        }                
+                    }                    
+                }
+            }
+        }
+
+    //BATAS SECTION2
+    }
+
+}
