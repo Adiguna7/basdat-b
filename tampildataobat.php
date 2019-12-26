@@ -37,10 +37,10 @@
                         <br>
                         <table border="1" style="height: fit-content; width:75%; border: 2px solid black; font-family: montserrat;" >
                             <tr style="width: 300px; text-align:center; color: #45bde5;">
-                                <th>no</th>
-                                <th>merk</th>
-                                <th>kegunaan</th>			
-                                <th>tersedia</th>
+                                <th>No</th>
+                                <th>Merk</th>
+                                <th>Kegunaan</th>			
+                                <th>Tersedia</th>
                             </tr>
                             <?php         
                                 require 'koneksi.php';

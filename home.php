@@ -12,6 +12,14 @@
 </head>
 <body>
 
+    <?php
+        session_start();
+
+        if($_SESSION["level"] == ""){
+            header("location: loginpage.php?pesan=gagal");
+        }
+    ?>
+
     <section id="section1">
         <div class="container">
             <div id="selector_1" class="row">
@@ -20,6 +28,11 @@
                         <div class="wrapper-flex-center">
                             <div class="tulisan1-judul">
                                 BenMed
+                            </div>
+                        </div>
+                        <div class="wrapper-flex-center">
+                            <div class="tulisan1-judul" style="color: red; cursor: pointer;" onclick="location.href = 'logout.php'">
+                                LogOut
                             </div>
                         </div>
                     </div>
@@ -37,11 +50,17 @@
                 <div id="selector2-home" class="col-lg-8">
                     <div class="wrapper-flex-center-down">
                         <div class="tulisan1-judul">
-                            Hi! <br>
+                            Hi! 
+                            <?php 
+                                echo $_SESSION["username"];
+                            ?> 
+                            <br>
                             Anda Login Sebagai
                         </div>
                         <div class="tulisan1-judul">
-                            Pasien                            
+                            <?php 
+                                echo $_SESSION["level"];
+                            ?>                            
                         </div>
                         <div class="tulisan1-judul" onclick="location.href = 'tampildatadokter.php'">
                             Cek Daftar Dokter

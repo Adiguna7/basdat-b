@@ -23,6 +23,8 @@ function registrasi($data){
 			alert('Username sudah ada')
 		</script>
 		";
+		// $error = true;
+		// header("location: register.php?username=ada");
 		return false;
 
 	}
@@ -40,7 +42,7 @@ function registrasi($data){
 	$password = password_hash($password, PASSWORD_DEFAULT);
 	
 	// tambah data
-	mysqli_query($koneksi, "INSERT INTO user VALUES (NULL, '$username', '$password')");
+	mysqli_query($koneksi, "INSERT INTO user VALUES (NULL, '$username', '$password', 'pasien')");
 
 	//cek berhasil atau tidak
 	return mysqli_affected_rows($koneksi); 

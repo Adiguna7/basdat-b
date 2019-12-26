@@ -19,7 +19,7 @@
                     <div class="wrapper-flex-spacebetween">
                         <div class="wrapper-flex-center">
                             <div class="tulisan1-judul">
-                                BenMed
+                                BanMed
                             </div>
                         </div>
                     </div>

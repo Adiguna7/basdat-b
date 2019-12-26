@@ -8,7 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>Data Dokter | BanMed</title>
 </head>
 <body>
 
@@ -19,7 +19,7 @@
                     <div class="wrapper-flex-spacebetween">
                         <div class="wrapper-flex-center">
                             <div class="tulisan1-judul">
-                                BenMed
+                                BanMed
                             </div>
                         </div>
                     </div>

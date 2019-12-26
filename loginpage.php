@@ -13,7 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"></script>
     <link rel="stylesheet" href="css/styles.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Login | BanMed</title>
 </head>
 <body>
 
@@ -40,11 +40,14 @@
                     <div class="wrapper-flex-center-down">
                         <h1>Login</h1>
                         <br>
-                        <?php if (isset($error)) {
+                        <?php if (isset($_GET["pesan"])) {
+                                if($_GET["pesan"] == "gagal"){
                         ?>
                         <p style="color: red;">password/username salah</p>
 
                         <?php
+                            }
+                            
                         }
                         ?>
 

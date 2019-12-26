@@ -8,6 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shorcut icon" href = >
     <title>Selamat Datang | BenMed</title>
 </head>
 <body>
